@@ -36,7 +36,7 @@ req = json.loads(req)
 count = 0
 subCount = 0
 # print(type(req))
-# Jesus Christ navigating this JSON file was crazy
+# navigating this JSON file was crazy
 for values in req['results'][0]['lexicalEntries']:
     for values2 in req['results'][0]['lexicalEntries'][count]['entries'][0]['senses']:
         subCount += 1
